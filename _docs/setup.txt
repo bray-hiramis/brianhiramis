@@ -1,0 +1,39 @@
+This setup text file will serve as my reference for building my personal portfolio.
+
+==========================================
+
+Font family:
+
+Logo Font: Syne
+Heading Font: Space Grotesk
+Body Font: Inter
+
+==========================================
+
+Font size (Base root font-size: 10px):
+
+Hero (h1): 6.4rem
+font-size: clamp(4rem, 2.73vw + 3.13rem, 6.4rem);
+
+Section Heading (h2): 4.2rem
+font-size: clamp(3rem, 1.36vw + 2.56rem, 4.2rem);
+
+Subheading (h3): 2.4rem
+font-size: clamp(2rem, 0.45vw + 1.86rem, 2.4rem);
+
+Intro/Subtitle (h4): 1.8rem
+font-size: clamp(1.6rem, 0.23vw + 1.53rem, 1.8rem);
+
+Standard (p): 1.6rem (no clamp)
+Small text: 1.4rem (no clamp)
+
+line height: 1.6
+
+==========================================
+
+Colors:
+
+Background color: #dde6ed
+Main color: #526d82
+Accent color: #9db2bf
+Text color: #27374d
