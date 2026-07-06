@@ -12,10 +12,12 @@
 
 ## Visual Demo
 
-<strong>Live Demo:</strong> ---
+<strong>Live Demo:</strong> <a href="http://brianhiramis.com">brianhiramis.com</a>
 
 <strong>Screenshot:</strong>
-<img src="./_docs/_screenshots/my-portfolio-desktop-view.png" alt="Brian Hiramis Personal Portfolio" width="600">
+| Desktop View | Mobile View |
+| ------------ | ----------- |
+| <img src="./_docs/_screenshots/my-portfolio-desktop-view-v1.1.png" alt="Brian Hiramis Personal Portfolio" width="600"> | <img src="./_docs/_screenshots/my-portfolio-mobile-view-v1.0.png" alt="Brian Hiramis Personal Portfolio" width="150"> |
 
 ## Getting Started
 
@@ -30,6 +32,7 @@ cd brianhiramis
 - Proper alignment of elements.
 - Using css <code>clamp()</code> function to create a responsive typography.
 - Consistent typography and color balance.
+- Deploying the website with custom domain through Netlify.
 
 ## Tech Stack
 

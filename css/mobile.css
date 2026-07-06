@@ -1,0 +1,73 @@
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  h2 {
+    text-align: center;
+  }
+  #nav .padding-global {
+    padding: 15px 0;
+  }
+  #nav .nav-links {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  #nav .nav-links .nav-logo {
+    max-width: 150px;
+    margin-bottom: 15px;
+  }
+  #nav .nav-links .nav-btn {
+    justify-content: center;
+    flex-direction: column;
+  }
+  #nav .nav-links .nav-btn .nav-link {
+    text-align: center;
+  }
+  #header {
+    height: 120vh;
+  }
+  #header .hero-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 0;
+  }
+  #header .hero-container .hero-middle {
+    display: none;
+  }
+  #header .hero-container .hero-right-text {
+    font-size: 3rem;
+    text-align: center;
+  }
+  #skills img {
+    max-width: 60px;
+  }
+  #skills .skills-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  #skills .skills-container .skills-boxes {
+    min-height: 350px;
+  }
+  #skills .skills-container .skills-box {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #featured-projects .projects-container .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #about-me .about-container .about-work {
+    grid-template-columns: 1fr;
+    margin-bottom: 35px;
+  }
+  #about-me .about-container .about-work .about-work-img {
+    display: none;
+  }
+  #about-me .about-container .about-hobby {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: center;
+  }
+  #about-me .about-container .about-hobby .about-hobby-img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=mobile.css.map */
