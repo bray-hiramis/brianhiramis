@@ -10,6 +10,7 @@ html {
   font-size: 10px;
   line-height: 1.6;
   scroll-behavior: smooth;
+  scroll-padding-top: 10rem;
 }
 
 body {
@@ -202,6 +203,9 @@ img {
   justify-items: center;
 }
 
+#featured-projects .projects-container {
+  height: 100vh;
+}
 #featured-projects .projects-container .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
